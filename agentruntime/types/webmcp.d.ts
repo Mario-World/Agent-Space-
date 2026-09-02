@@ -30,7 +30,7 @@ interface WebMCPModelContext {
 }
 
 interface Document {
-  modelContext?: WebMCPModelContext;
+  modelContext: WebMCPModelContext;
 }
 
 interface Window {
